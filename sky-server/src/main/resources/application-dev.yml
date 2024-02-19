@@ -12,3 +12,7 @@ sky:
     access-key-id: LTAI5tFcQ5Nknhqus1fCnR4u
     access-key-secret: LxOsuWe3Lrj0gUR9Q6dnCHnSElYLB1
     bucket-name: skyhhhh123
+
+  wechat:
+    appid: wx13c5ba639bc0f1ed
+    secret: 9f7d0d325023db7f82b1775422fa3fee
