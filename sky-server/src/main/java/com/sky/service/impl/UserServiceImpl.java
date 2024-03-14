@@ -47,8 +47,7 @@ public class UserServiceImpl implements UserService {
                     .build();
             userMapper.insert(user);
         }
-
-
+        
         return user;
     }
 
