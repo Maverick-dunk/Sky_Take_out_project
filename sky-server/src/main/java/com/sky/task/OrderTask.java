@@ -17,7 +17,7 @@ public class OrderTask {
     @Autowired
     private OrderMapper orderMapper;
 
-    @Scheduled(cron="0 * * * * ？") //每分钟触发一次
+    @Scheduled(cron="0 * * * * ?") //每分钟触发一次
     public void processTimeoutOrder(){
         log.info("定时处理超时订单：{}", LocalDateTime.now());
 

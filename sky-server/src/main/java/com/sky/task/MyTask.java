@@ -14,6 +14,6 @@ public class MyTask {
 //    @Scheduled(cron = "0/5 * * * * ?")
     @Scheduled(cron ="*/1 * * * * ?")
     public void executeTask(){
-        log.info("定时任务开始执行：{}",new Date());
+//        log.info("定时任务开始执行：{}",new Date());
     }
 }
